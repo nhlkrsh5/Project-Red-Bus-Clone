@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hachi+Maru+Pop&family=Oswald:wght@200&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;1,700&display=swap');
+
+body {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    width: 1349px;
+    display: flex;
+    /* position: relative; */
+    /* position: fixed; */
+    background-color: white;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 48px;
+    width: 80px;
+}
+
+.seprator {
+    height: 1px;
+    width: 150px;
+}
+
+.links {
+    margin-top: 25px;
+    width: 700px;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.help {
+    margin-top: 25px;
+}
+
+.help i {
+    font-size: 25px;
+}
+
+.help a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.account {
+    margin-left: 25px;
+}
+
+.one {
+    background-image: url(Image/HeroImage.png);
+    width: 1349px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: white;
+    height: 112px;
+    width: 999px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+}
+
+.input {
+    outline: none;
+    font-size: 20px;
+}
+
+.input:hover {
+    outline: none;
+}
+
+.from {
+    display: flex;
+    align-items: center;
+    height: 112px;
+    width: 270px;
+}
+
+.from i {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.input {
+    border: none;
+    margin-left: 20px;
+}
+
+.arrow {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.arrow i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 50%;
+    width: 35px;
+    border: 1px solid gray;
+}
+
+.btn {
+    width: 249px;
+    background-color: rgb(249, 104, 129);
+    overflow: hidden;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.con {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-size: 25px;
+    /* width: 1200px; */
+}
+
+.two {
+    height: 350px;
+    width: 1349px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+}
+
+.box {
+    background-color: white;
+    height: 320px;
+    width: 1200px;
+    box-shadow: 10px 10px 10px rgb(78, 78, 78);
+    border-radius: 20px;
+    /* display: flex; */
+    margin-left: 70px;
+}
+
+.sub-box {
+    display: flex;
+    width: 1345px;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.trending {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.two-btn {
+    height: 50px;
+    border-radius: 20px;
+    width: 100px;
+    border: 2px solid blue;
+    background: none;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.two-btn {
+    font-size: 15px;
+}
+
+.cupon-one {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    background-color: rgb(79, 79, 211);
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.star-icon {
+    height: 136px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
+.cupon {
+    display: flex;
+
+}
+
+.cupon-btn {
+    margin-top: 20px;
+    height: 25px;
+    width: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: bold;
+}
+
+.cupon-con p:nth-child(even) {
+    font-weight: 1000;
+    color: white;
+    margin-top: 15px;
+}
+
+.p2 {
+    color: white;
+    margin-top: 10px;
+}
+
+.btn2 {
+    margin-top: 20px;
+    border: 2px dashed white;
+    width: 100px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 12px;
+}
+
+.btn-copy i {
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.cupon-two {
+    background-color: rgb(192, 74, 74);
+}
+
+.cupon-three {
+    background-color: rgb(38, 145, 38);
+}
+
+.cupon-four {
+    background-color: rgb(128, 128, 208);
+}
+
+.cupon-five {
+    background-color: orange;
+}
+
+.three {
+    display: flex;
+    margin-top: 250px;
+    height: 650px;
+    width: 1312px;
+    justify-content: center;
+
+}
+
+.three-sub-left {
+    height: 630px;
+    width: 545px;
+    /* background-color: aqua; */
+}
+
+.three-sub-right {
+    height: 630px;
+    width: 552px;
+    
+}
+
+.specer {
+    width: 70px;
+    height: 630px;
+}
+
+.get-ticket {
+    height: 185px;
+    width: 552px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.two-links{
+    height: 60px;
+    width: 550px;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+.rental{
+    height: 54px;
+    width: 224px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rental i{
+    font-size: 30px;
+    color: rgb(240, 103, 126);
+}
+.rental a{
+    font-size: 25px;
+    color: rgb(240, 103, 126);
+    text-decoration: none;
+    margin-left: 5px;
+}
+.train-ticket{
+    height: 54px;
+    width: 224px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.line-three{
+    width: 2px;
+    height: 45px;
+    background-color: gray;
+}
+.train-ticket i{
+    color: gray;
+}
+.train-ticket a{
+    color: gray;
+}
+.car-info{
+    height: 256px;
+    width: 512px;
+}
+.car-con{
+    color: gray;
+    font-size: 22px;
+}
+.car-img{
+    display: flex;
+    margin-top: 30px;
+    height: 40px;
+    width: 550px;
+    align-items: center;
+}
+.car-img p{
+   font-size: 22px;
+    margin-top: 30px;
+    color: black;
+    margin-left: 45px;
+    font-weight: bold;
+}
+.car-mag-con{
+    width: 550px;
+    height: 152px;
+}
+.car-btn{
+    height: 55px;
+    width: 256px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.car-btn button{
+    height: 52px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(240, 103, 126);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.car-btn i{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+}
+.hero-two{
+    height: 425px;
+    width: 1349px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.hero-back-img{
+    height: 415px;
+    width: 1150px;
+    background-image: url(Image/hero2.png);
+    /* border: 2px solid black; */
+    border-radius: 40px;
+}
+.ETA{
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.hero-box{
+    display: flex;
+    /* justify-content: center; */
+}
+.hero-box-one{
+    height: 300px;
+    width: 375px;
+    background-color: white;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.hero-box-con{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.hero-box-con p{
+    font-size: 25px;
+    color: gray;
+    margin-left: 10px;
+}
+.hero-box-con i{
+    font-size: 25px;
+    color: green;
+}
+.play-app{
+    display: flex;
+    margin-top: 25px;
+}
+.play-store{
+    height: 100px;
+    width: 150px;
+    margin-left: 10px;
+}
+.play-line{
+    height: 80px;
+    width: 2px;
+    background-color: gray;
+    margin-right: 5px;
+}
+.hero-box-two{
+    height: 250px;
+    width: 200px;
+    margin-top: 80px;
+}
+.hero-box-two p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+footer{
+    height: 500px;
+    width: 1345px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-box{
+    height: 300px;
+    width: 250px;
+    margin-right: 20px;
+}
+.footer-box p{
+    color: gray;
+    font-size: 20px;
+}
+.footer-box2{
+    margin-right: 25px;
+    height: 300px;
+}
+.footer-box2 p{
+    
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-links a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
